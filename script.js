@@ -56,9 +56,9 @@ var chnagessrscimg2 = document.querySelectorAll('img')[1];
 var setS = chnagessrscimg2.setAttribute('src', imagechage);
 
 if (random2 === randomNumberImg1) {
-  document.querySelector('h1').innerHTML = 'match is draw';
+  document.querySelector('h1').innerHTML = '🚩 match is draw';
 } else if (random2 < randomNumberImg1) {
-  document.querySelector('h1').innerHTML = 'Palyer 1 win';
+  document.querySelector('h1').innerHTML = ' 🚩 Palyer 1 win';
 } else {
-  document.querySelector('h1').innerHTML = 'Player 2 win';
+  document.querySelector('h1').innerHTML = '🚩 Player 2 win';
 }
