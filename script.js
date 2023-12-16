@@ -49,6 +49,9 @@ var chnageRandomImgrsc = 'images/' + 'dice' + randomNumberImg1 + '.png';
 var chageAttribute = img1.setAttribute('src', chnageRandomImgrsc);
 
 // for im 2
+var refreshButton = document.querySelector('button');
+refreshButton.addEventListener('click', () => window.location.reload());
+
 var random2 = Math.floor(Math.random() * 6) + 1;
 console.log(random2);
 var imagechage = 'images/' + 'dice' + random2 + '.png';
